@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.env/
+.datasciencevnv/
+
+# Data & large artifacts
+data/
+*.csv
+*.npz
+
+# Model checkpoints (we'll use LFS for big ones)
+*.pt
+*.pth
+*.h5
+*.ckpt
